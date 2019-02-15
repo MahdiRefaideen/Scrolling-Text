@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Scrolling Text</string>
+    <string name="article_title">Mobile Coursework 2019</string>
+    <string name="article_subtitle"><b>Application Specification</b></string>
+    <string name="article_text">
+        You are required to implement an Android application described by the specifications below.
+        \nYou are not allowed to use third-party libraries. The only libraries you can use are the
+        standard Android API libraries found in the following URL:
+        \nhttps://developer.android.com/reference/
+        \nIt is important to follow exactly the specifications and your implementation must conform to
+        these:
+        \nThe application developed will be displaying country flags and you should use the images
+        found in the following website:
+        \nhttps://github.com/hjnilsson/country-flags
+        \nThe website provides 256 countries flags images in different resolutions and also a file
+        (countries.json) which maps the 2-letter ISO-3166 country code (used in the images filenames
+        ) to country names.
+        \n\n1. When the application starts, it presents the user with 4 buttons labelled Guess the
+        Country,Guess-Hints, Guess the Flag and Advanced Level. (4 marks)
+        \n\n2.
+        \n(a) Clicking on the Guess the Country button, it should display to the user one random
+        flag image picked randomly (and NOT in the same random sequence every time the application
+        restarts) from the 256 countries.
+        The screen should also display a dropdown list with ALL the names of the 256 countries and a
+        button labelled Submit. The user should use the list to select the country that the flag
+        corresponds to and clicking the “Submit” button he/she submits the guess to the app.
+        (11 marks)
+         \n(b) As soon as the user submits the answer, the message CORRECT! (in green colour) or the
+        message WRONG! (in red colour) appears on the screen with the name of the correct country in
+        Blue colour, depending on whether the answer given is correct or incorrect respectively.
+        (4 marks)</string>
+</resources>
